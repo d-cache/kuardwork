@@ -1,0 +1,1 @@
+Starting ReplicaSets. Have been calling what I've been using to get shit stood up deployments, but they've really been replica sets because they haven't defined anything about rollOut. Anyway, deployments will be the chapter after this one. Taking a break for supper.
