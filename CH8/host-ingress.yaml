@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: host-ingress
+spec:
+  rules:
+  - host: alpaca.example.com #have to change to something not .dev because of HSTS. Made this work by host file entry. Serving up correctly.        
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: alpaca-prod
+            port:
+              number: 8080
