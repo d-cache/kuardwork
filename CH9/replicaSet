@@ -1,1 +1,11 @@
 Starting ReplicaSets. Have been calling what I've been using to get shit stood up deployments, but they've really been replica sets because they haven't defined anything about rollOut. Anyway, deployments will be the chapter after this one. Taking a break for supper.
+
+Back at it day after. ReplicaSets are managed by deployments and there is a good chance that RSs should never actually need to be touched but for the sake of seeing all the k8s objects and how they all work together, there will be RSs created in this chapter.
+
+Summary:
+
+Even though pods are the smallest unit in k8s. At the very least, RSs should be used to manage them. RSs can "adopt" pods by having label selectors match labels on the pod. *test this out*** Sick pods can be isolated by changed in the labels on a pod spec. Couldn't test HPA. heapster was not in kube-system and the doc on it from k8s.io seemed not fun. Something to look into later. 
+
+Like RSs manage pods. Deployments manage RSs and should also probably be used anytime you are using RSs. More to come on that as CH10 is all about deployments
+
+  

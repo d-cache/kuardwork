@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: kuardrs
+  labels:
+    app: kuard
+    ver: "N-A"
+spec:
+  # modify replicas according to your case
+  replicas: 4
+  selector:
+    matchLabels:
+      app: kuard
+      ver: "2"
+  template:
+    metadata:
+      labels:
+        app: kuard
+        ver: "2"
+    spec:
+      containers:
+      - name: kuard
+        image: gcr.io/kuar-demo/kuard-amd64:green
