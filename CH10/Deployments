@@ -1,1 +1,6 @@
-Here we go. Ch. 10 on Deployments. Moving up the hierarchy. Container>Pod>ReplicaSet>Deployment. Over simplification because I think services are usually built into deployments as well. This is me before-going-though-the-chapter note. This one is a pretty dense one. Hopefully I can finish it tonight.  
+Here we go. Ch. 10 on Deployments. Moving up the hierarchy. Container>Pod>ReplicaSet>Deployment. Over simplification because I think services are usually built into deployments as well. This is me before-going-though-the-chapter note. This one is a pretty dense one. Hopefully I can finish it tonight.o
+
+
+I was very wrong. Since we did the heavy lifting with pods and RSs, the only thing Deployments brought into the mix was rollouts. A few knobs to turn to dial in how you want a rollout to proceed as defined in the spec under strategy. I didn't create any YAML because the exmaple from the book was not readily avail and I didn't want to waste the time typing it up and fixing its dated entries when the concepts were very straight forward. I am sure we will revist deployment in general at somepoint in the book. For now, moving on to DeamonSets.
+
+  
