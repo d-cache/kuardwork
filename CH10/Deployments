@@ -1,0 +1,1 @@
+Here we go. Ch. 10 on Deployments. Moving up the hierarchy. Container>Pod>ReplicaSet>Deployment. Over simplification because I think services are usually built into deployments as well. This is me before-going-though-the-chapter note. This one is a pretty dense one. Hopefully I can finish it tonight.  
