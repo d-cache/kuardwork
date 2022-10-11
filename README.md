@@ -1,1 +1,1 @@
-Artifacts created while working through Kubernetes Up & Running 2nd ed
+Artifacts and summaries/thoughts generated working through Kubernetes Up and Running 2nd Ed
