@@ -1,0 +1,3 @@
+DSs seem to be just RSs that need to run on specfic nodes. The obvious example of why we would need this would be for setting up logging for each node in a k8s cluster. Hopefully my initial ideas are correct and this chapter reaffirms them. 
+
+
