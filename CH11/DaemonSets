@@ -1,3 +1,3 @@
 DSs seem to be just RSs that need to run on specfic nodes. The obvious example of why we would need this would be for setting up logging for each node in a k8s cluster. Hopefully my initial ideas are correct and this chapter reaffirms them. 
 
-
+Welp, another quick chapter. Assumptions above were correct. I will add that rollout functionallity has been added to DSs. Also, labeling nodes to land pods for certain applications on certain pods e.g. for GPU usage for a GPU that only exists on a certain node, is a thing done with a nodeSelector field in the DS spec.  
