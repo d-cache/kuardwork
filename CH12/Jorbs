@@ -1,3 +1,3 @@
 Sincerely no idea what Jobs are. SHould be an interesting chapter.
 
-
+Jobs are a low-level primitive that can be used for simple workloads. They seem to be most useful for handling batch job patterns and can be run in parallel.
